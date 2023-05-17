@@ -22,8 +22,6 @@ Servo motors are used for angular positioning, such as in radio control airplane
 
 ![image](https://user-images.githubusercontent.com/36288975/163544439-1f477927-fcd4-42f0-9ce4-c863fdbf1210.png)
 
-
-
 #### Figure-01 SERVO MOTOR SPLIT VIEW 
 Control 
 An external controller (such as the Arduino) tells the servo where to go with a signal know as pulse proportional modulation (PPM) or pulse code modulation (which is often confused with pulse width modulation, PWM). PWM uses 1 to 2ms out of a 20ms time period to encode its information.
@@ -39,12 +37,6 @@ An external controller (such as the Arduino) tells the servo where to go with a 
 ### Figure-03 SERVO MOTOR OVERVIEW 
 
  
-
-
- 
-
-
-
 
 
 CIRCUIT DIAGRAM
@@ -71,6 +63,8 @@ CIRCUIT DIAGRAM
 Program developed by : Kavya k
 
 Register number : 212222230065
+
+
 
 ```
  #include <Servo.h>

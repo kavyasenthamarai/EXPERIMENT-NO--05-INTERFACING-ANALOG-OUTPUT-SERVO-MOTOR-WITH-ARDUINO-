@@ -19,7 +19,6 @@ Servo motors and are constructed out of basic DC motors, by adding:
 Typically, a potentiometer (variable resistor) measures the position of the output shaft at all times so the controller can accurately place and maintain its setting.
 Servo motors are used for angular positioning, such as in radio control airplanes.  They typically have a movement range of 180 deg but can go up to 210 deg.The output shaft of a servo does not rotate freely, but rather is made to seek a particular angular position under electronic control. 
 
-
 ![image](https://user-images.githubusercontent.com/36288975/163544439-1f477927-fcd4-42f0-9ce4-c863fdbf1210.png)
 
 #### Figure-01 SERVO MOTOR SPLIT VIEW 
@@ -36,16 +35,11 @@ An external controller (such as the Arduino) tells the servo where to go with a 
 
 ### Figure-03 SERVO MOTOR OVERVIEW 
 
- 
-
-
 CIRCUIT DIAGRAM
- 
  
  ![image](https://user-images.githubusercontent.com/36288975/163544618-6eb8a7b5-7f1a-428a-8d9f-fd899b145efb.png)
 
 ### FIGURE 04 CIRCUIT DIAGRAM
-
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
 2.	Connect the board to your computer via the USB cable.
@@ -56,15 +50,12 @@ CIRCUIT DIAGRAM
 7.	Open the file of the program  and verify the error , clear if any errors that are existing 
 8.	Upload the program and check for the physical working. 
 9.	Ensure safety before powering up the device.
-
-
+10.	
 ### PROGRAM :
 
 Program developed by : Kavya k
 
 Register number : 212222230065
-
-
 
 ```
  #include <Servo.h>
@@ -86,7 +77,6 @@ void loop()
  myservo.write(angle);
  delay(15);
 }
-
 ```
 # OUTPUT:
 ## BEFORE SIMULATION:
